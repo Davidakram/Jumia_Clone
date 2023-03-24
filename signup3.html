@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min (1).css" />
+    <link rel="icon" type="image/x-icon" href="/images/myjumia-top-logo.png" />
+    <style>
+      a {
+        list-style: none;
+        color: white;
+        text-decoration: none;
+      }
+    </style>
+    <title>Jumia</title>
+    <script src="./jquery-3.1.1.js"></script>
+  </head>
+  <body>
+    <div class="container text-center w-50" style="height: 100vh">
+     <div class="row justify-content-center">
+      <div class="text-center">
+        <div class="header text-center mt-4">
+          <img src="./images/myjumia-top-logo.png" alt="" style="width: 64px" />
+        </div>
+        <div class="text mt-3 mb-4">
+          <span class="fw-bold fs-4">Personal Details</span><br />
+          <span class="fs-6">We just need you to fill in some details.</span>
+        </div>
+        <form class="was-validated">
+       
+            <div class="mb-4">
+              <input
+                type="text"
+                class="form-control w-100 mx-auto p-3"
+                id="Fname"
+                placeholder="First Name*"
+                name="firstName"
+                required
+              />
+            </div>
+            <div class="mb-4">
+                <input
+                  type="text"
+                  class="form-control w-100 mx-auto p-3"
+                  id="Mname"
+                  placeholder="Middle Name*"
+                  name="MiddleName"
+                  required
+                />
+              </div>
+            <div class="mb-4">
+                <input
+                  type="text"
+                  class="form-control w-100 mx-auto p-3"
+                  id="Lname"
+                  placeholder="Last Name*"
+                  name="LastName"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="password"
+                  class="form-control w-100 mx-auto p-3"
+                  id="pwd"
+                  placeholder=" password"
+                  name="pswd"
+                  required
+                />
+  
+      
+              </div>
+          
+            <div class="invalid-feedback d-none" id="checking">Full all the inputs</div>
+            <button
+              type="submit"
+              class="btn w-100 mt-3 p-3 text-light fw-bold fs-5"
+              style="background-color: #f8982d"
+              id="submitt"
+            >
+              <a href="./products.html">Continue</a>
+            </button>
+          </fieldset>
+        </form>
+      </div>
+     </div>
+    </div>
+    <script src="./signup3.js"></script>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min (1).css" />
+    <link rel="icon" type="image/x-icon" href="/images/myjumia-top-logo.png" />
+    <style>
+      a {
+        list-style: none;
+        color: white;
+        text-decoration: none;
+      }
+    </style>
+    <title>Jumia</title>
+    <script src="./jquery-3.1.1.js"></script>
+  </head>
+  <body>
+    <div class="container text-center w-50" style="height: 100vh">
+      <div class="row justify-content-center">
+        <div class="text-center">
+          <div class="header text-center mt-4">
+            <img
+              src="./images/myjumia-top-logo.png"
+              alt=""
+              style="width: 64px"
+            />
+          </div>
+          <div class="text mt-3 mb-4">
+            <span class="fw-bold fs-4">Create Your Account</span><br />
+            <span class="fs-6"
+              >Let's get started by creating your account. <br />
+              To keep your account safe, we need a strong password</span
+            >
+          </div>
+          <form class="was-validated">
+            <fieldset>
+              <fieldset>
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    id="TextInput"
+                    class="form-control w-100 mx-auto p-3"
+                    placeholder="enter your email "
+                    disabled
+                  />
+                </div>
+              </fieldset>
+              <div class="mb-3">
+                <input
+                  type="password"
+                  class="form-control w-100 mx-auto p-3"
+                  id="pwd"
+                  placeholder="Enter password"
+                  name="pswd"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="password"
+                  class="form-control w-100 mx-auto p-3"
+                  id="Cpwd"
+                  placeholder="Confirm password"
+                  name="Cpswd"
+                  required
+                />
+
+                <div class="invalid-feedback d-none" id="validate">
+                  Both Passwords must Match
+                </div>
+              </div>
+              <button
+                type="submit"
+                class="btn w-100 mt-3 p-3 text-light fw-bold fs-5"
+                style="background-color: #f8982d"
+                id="su"
+              >
+                <a href="./signup3.html">Continue</a>
+              </button>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="./signup2.js"></script>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min (1).css" />
+    <link rel="icon" type="image/x-icon" href="/images/myjumia-top-logo.png" />
+    <style>
+      a {
+        list-style: none;
+        color: white;
+        text-decoration: none;
+      }
+    </style>
+    <title>Jumia</title>
+    <script src="./jquery-3.1.1.js"></script>
+  </head>
+  <body>
+    <div class="container text-center w-50" style="height: 100vh">
+      <div class="row justify-content-center">
+        <div class="text-center">
+          <div class="header text-center mt-4">
+            <img
+              src="./images/myjumia-top-logo.png"
+              alt=""
+              style="width: 64px"
+            />
+          </div>
+          <div class="text mt-3">
+            <span class="fw-bold fs-4">What's your Email Address?</span><br />
+            <span class="fs-6"
+              >Type your email to log in or create a Jumia account.</span
+            >
+          </div>
+          <form>
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control w-100 p-3 mt-3"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Email"
+              />
+              <label id="inValidateEmail" class="text-danger d-none"
+                >ex: david935@hotmail.com
+              </label>
+            </div>
+
+            <p
+              type="submit"
+              class="btn w-100 mt-3 p-3 text-light fw-bold fs-5"
+              style="background-color: #f8982d"
+              id="sub"
+            >
+              <a href="./signup2.html" id="anchor1">Continue</a>
+            </p>
+            <div id="submittext" class="form-text">
+              <div
+                id="emailHelp"
+                class="form-text fw-bold fs-6 mt-2"
+                style="color: #f8982d"
+              >
+                Log in or register with phone number
+              </div>
+            </div>
+            <div id="social-logins" class="actions">
+              <div class="mt-5"></div>
+              <div class="mdc-touch-target-wrapper">
+                <button
+                  id="facebook"
+                  onclick="window.location='https://www.facebook.com/v12.0/dialog/oauth?client_id=312873397548795&amp;redirect_uri=https://my.jumia.com.eg/facebook/redirect&amp;state=FmV9GqrxJ6cbej6y5dj92&amp;scope=email,public_profile'"
+                  type="button"
+                  class="btn btn-primary p-3 w-100 fw-bold fs-5"
+                >
+                  <span>Log in with Facebook</span>
+                  <span><i class="fa-brands fa-square-facebook"></i></span>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="./css/bootstrap.bundle.min (1).js"></script>
+    <script src="./signup1.js"></script>
+  </body>
+</html>

@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min (1).css" />
+    <link rel="icon" type="image/x-icon" href="/images/myjumia-top-logo.png" />
+    <style>
+      .active1 {
+     color: #f68b1e !important;
+     background-color: white !important;
+     border: 1px solid #eee !important;
+      }
+      .active{
+        background-color: #f68b1e !important;
+      }
+      .carousel-item img{
+        height: 67vh !important;
+      }
+    </style>
+    <title>Jumia</title>
+    <script src="./jquery-3.1.1.js"></script>
+  <body class="bg-light">
+    <div >
+      <img data-src="https://eg.jumia.is/cms/Jan-23/Sticky-banner/Flash-sale/NEW/Flash1.gif" src="https://eg.jumia.is/cms/Jan-23/Sticky-banner/Flash-sale/NEW/Flash1.gif" class="w-100" alt="Flas-Sale-Desktop">
+    </div>
+    
+      <marquee  direction="left" class="bg-warning bg-opacity-25  m-0"><h3 class="text-danger fs-3 p-1">
+        Welcome to our site <i class="fa-regular fa-heart"></i>
+          <i class="fa-regular fa-face-laugh-wink"></i></h3>
+    </marquee>
+   
+<!-- ===================================== navbar ============================ -->
+<nav class="navbar navbar-expand-lg sticky-top bg-light" >
+  <div class="container-fluid  mx-5">
+  <img src="./images/logo.png" style="width: 12vw; height: 10vh;">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <form class="d-flex w-75 ms-auto" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn fw-bold text-white fs-6" style="background-color: #f68b1e;" type="submit">SEARCH</button>
+      </form>
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 w-50 row ">
+        <li class="nav-item col-md-4 p-0" style="width: 33.3333333333333%;">
+          <a class="nav-link "   aria-current="page" href="./signup1.html"><i class="fa-solid fa-user me-2"></i>SignIn</a>
+        </li>
+        <li class="nav-item dropdown col-md-4" >
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-regular fa-circle-question me-2"></i>Help
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">contact us</a></li>
+            <li><a class="dropdown-item" href="#">report a problem</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">send a feedback</a></li>
+          </ul>
+        </li>
+        <li class="nav-item col-md-4">
+          <a class="nav-link " aria-current="page" href="#"> <i class="fa-solid fa-cart-shopping me-2"></i>Cart</a>
+        </li>
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+<div class="container mt-5">
+  <div class="row">
+    <!-- ======================= left ======================= -->
+    <div class="col-lg-2 col-md-4 col-sm-3 ">
+      <ul class="list-group ">
+        <li class="list-group-item text-center" style="border: none"><i class="fa-brands fa-apple"></i></li>
+        <li class="list-group-item text-center" style="border: none"><i class="fa-solid fa-shirt"></i></li>
+        <li class="list-group-item text-center" style="border: none"><i class="fa-solid fa-pen-fancy"></i></li>
+        <li class="list-group-item text-center" style="border: none"><i class="fa-solid fa-baby"></i></li>
+        <li class="list-group-item text-center" style="border: none"><i class="fa-solid fa-mobile-screen-button"></i></li>
+        <li class="list-group-item text-center" style="border: none"><i class="fa-solid fa-house"></i></li>
+        <li class="list-group-item text-center" style="border: none"><i class="fa-solid fa-tv"></i></li>
+        <li class="list-group-item text-center" style="border: none"><i class="fa-solid fa-laptop"></i></li>
+        <li class="list-group-item text-center" style="border: none"><i class="fa-solid fa-dumbbell"></i></li>
+        <li class="list-group-item text-center" style="border: none"><i class="fa-solid fa-gamepad"></i></li>
+        <li class="list-group-item text-center" style="border: none"><i class="fa-solid fa-car"></i></li>
+        
+  
+      </ul>
+    </div>
+        <!-- ======================= center ======================= -->
+    <div class="col-lg-8 col-md-8 col-sm-9 ">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active rounded-circle" aria-current="true" aria-label="Slide 1" style="width: 7px; height: 7px;"  ></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="rounded-circle" aria-label="Slide 2" style="width: 7px; height: 7px;"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="rounded-circle" aria-label="Slide 3" style="width: 7px; height: 7px;"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="rounded-circle" aria-label="Slide 4" style="width: 7px; height: 7px;"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" class="rounded-circle" aria-label="Slide 5" style="width: 7px; height: 7px;"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" class="rounded-circle" aria-label="Slide 6" style="width: 7px; height: 7px;"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" class="rounded-circle" aria-label="Slide 7" style="width: 7px; height: 7px;"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" class="rounded-circle" aria-label="Slide 8" style="width: 7px; height: 7px;"></button>
+          
+        </div>
+        <div class="carousel-inner rounded-top ">
+          <div class="carousel-item active ">
+            <img src="./images/img-1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/img-2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/img-3.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/img-4.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/img-5.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/img-6.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/img-7.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/img-8.gif" class="d-block w-100" alt="...">
+          </div>
+        </div>
+   
+      </div>
+    </div>
+      <!-- ======================= right ======================= -->
+    <div class="col-lg-2 d-none d-lg-block">
+      
+      <div class=" overflow-hidden  h-100">
+        <div class="d-flex flex-wrap  justify-content-between h-100 ">
+          
+            <div ><img src="./images/img-10.gif" class="img-fluid rounded" alt=""></div>
+            <div ><img src="./images/img-10.gif" class="img-fluid rounded" alt=""></div>
+            <div class="align-self-end"><img src="./images/img-9.gif" alt="" class="img-fluid rounded" ></div>
+          
+         
+        </div>
+      </div>
+    </div>
+
+   
+    
+    </div>
+ 
+</div>
+<div class="mt-4 ">
+ 
+    <marquee behavior="" direction="left" class="bg-warning p-2"
+      ><h3 class="h3 text-danger fs-2">
+       Jumia Products
+        <i class="fa-regular fa-face-laugh-wink"></i></h3
+    ></marquee>
+ 
+</div>
+ <div class="container">
+      <div id="products" class="row  gx-3"></div>
+ </div>
+ <!-- Footer -->
+<footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <p class="text-start"> <span class="fs-2 p-2">JUMIA</span><img src="./images/myjumia-top-logo.png" style="width: 30px;" class="mb-3" alt=""></p>
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>New To Jumia?</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example21" class="form-control" />
+              <label class="form-label" for="form5Example21">Email address</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">
+              Subscribe
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+        repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+        eum harum corrupti dicta, aliquam sequi voluptate quas.
+      </p>
+    </section>
+    <!-- Section: Text -->
+
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase fs-4">lets Help You</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <p>Help Center</p>
+            </li>
+            <li>
+              <p>Contact Us</p>
+            </li>
+            <li>
+              <p class="fs-6">How to Shop On jumia</p>
+            </li>
+            <li>
+              <p class="fs-6">How to Pay on Jumia</p>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">About Jumia Egypt</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <p>Jumia Careers</p>
+            </li>
+            <li>
+        <p>Privacy</p>
+            </li>
+            <li>
+           <p>free shipping</p>
+            </li>
+            <li>
+              <p>flash sales</p>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">LBRANDS</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <P>HP</P>
+            </li>
+            <li>
+             <p>H&M</p>
+            </li>
+            <li>
+              <P>ZARA</P>
+            </li>
+            <li>
+             <P>NIKE</P>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">jUMIA INTERNATIONAL</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <P>Algeria</P>
+            </li>
+            <li>
+              <p>Nigria</p>
+            </li>
+            <li>
+             <p>Sengal</p>
+            </li>
+            <li>
+            <p>Tunisia</p>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2022 Copyright:
+    <a class="text-white" href="https://jumia.com/">Jumia Online Shopping</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+  <script src="./list.js"></script>
+<script src="./css/bootstrap.bundle.min (1).js"></script>
+  </body>
+</html>
